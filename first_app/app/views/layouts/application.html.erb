@@ -12,6 +12,25 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-custom">
+      <div class="container-fluid d-inline-flex">
+
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <a class="navbar-brand justify-cotent-start" href="#home"></a>
+        </button>
+
+        <a class="navbar-brand justify-cotent-start" href="#home"></a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="nav navbar-nav ml-auto" style="float: right">
+            <li class="nav-item"><%= link_to " UNO --", root_path %></li>
+            <li class="nav-item"><%= link_to " DOS --", pages_two_path %></li>
+            <li class="nav-item"><%= link_to " TRES --", pages_three_path %></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
