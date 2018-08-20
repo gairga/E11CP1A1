@@ -28,4 +28,4 @@ https://fierce-garden-68145.herokuapp.com/
 - Añadir los cambios y hacer el <u>*cuarto commit*</u>.
 - Crear un repositorio en *GitHub*.
 - Añadir el *remote* al repositorio de *GitHub* y hacer *push*.
-- Inicializar proyecto en *Heroku* y hacer *push*.
+- Inicializar proyecto en *Heroku* y hacer *push* https://fierce-garden-68145.herokuapp.com/ .
